@@ -1,4 +1,4 @@
-# Portfólio de Desenvolvimento Web ???
+# Portfólio de Desenvolvimento Web ![Desktop](https://img.icons8.com/?size=25&id=ZJ2g7YgS3wpT&format=png&color=000000)
 
 Bem-vindo ao repositório do meu portfólio de desenvolvimento web. Este site foi construído usando Laravel, Blade e TailwindCSS para mostrar meus projetos, habilidades e experiências.
 
@@ -12,7 +12,7 @@ Você pode visualizar o design original do portfólio no  Figma através deste [lin
 - ![Laravel](https://img.icons8.com/fluent/24/000000/laravel.png) **Blade**: Motor de template do Laravel utilizado para construir as views.
 - ![TailwindCSS](https://img.icons8.com/color/24/000000/tailwindcss.png) **TailwindCSS**: Framework CSS utilizado para estilizar o site de forma rápida e eficiente.
 
-## Funcionalidades ??
+## Funcionalidades ![Foguete](https://img.icons8.com/?size=25&id=15175&format=png&color=000000)
 
 - **Home Page**: Uma página inicial atraente com uma introdução pessoal e links para seções importantes do site.
 - **Sobre Mim**: Uma página detalhada sobre minha carreira, habilidades e interesses.
