@@ -15,20 +15,22 @@
     </head>
     <body>
         <!-- Menu -->
-        <div class="container w-[80%] mx-auto flex justify-between p-10">
-            <div id="logo">Portfolio.</div>
-            <div>
-                <ul class="flex space-x-4 font-inter">
-                    <li><a href="#" class="hover:text-secondary">Home</a></li>
-                    <li><a href="#" class="hover:text-secondary">About</a></li>
-                    <li><a href="#" class="hover:text-secondary">Services</a></li>
-                    <li><a href="#" class="hover:text-secondary">Contact</a></li>
-                </ul>
+        <div id="menu" class="w-full p-3">
+            <div class="container mx-auto w-[80%] flex justify-between ">
+                <div id="logo">Portfolio.</div>
+                <div>
+                    <ul class="flex space-x-4 font-inter">
+                        <li><a href="#home" class="hover:text-secondary">Home</a></li>
+                        <li><a href="#about" class="hover:text-secondary">About</a></li>
+                        <li><a href="#services" class="hover:text-secondary">Services</a></li>
+                        <li><a href="#contact" class="hover:text-secondary">Contact</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <!-- End Menu -->
         <!-- Section Home -->
-        <div class="container mx-auto p-10">
+        <div id="home" class="container mx-auto p-10">
             <div class="flex justify-around">
                 <div class="flex flex-1 items-start">
                     <div class="mx-auto mt-10">
@@ -48,25 +50,25 @@
         </div>
         <!-- End Section Home -->
         <!-- Section About  -->
-        <div class="w-full bg-bgSecondary">
+        <div id="about" class="w-full bg-bgSecondary">
             <div class="container w-[90%] mx-auto flex justify-between p-10 gap-16 min-h-[500px]">
-                    <img src="{{ asset('images/aboutme_image.png') }}" width="400"/>
-                    <div class="mt-10">
-                        <p class="font-sen font-extrabold text-[2rem]">
-                            About <span class="text-secondary">Me</span>
-                        </p>
-                        <p class="font-sen text-[1rem]">Full Stack Developer</p>
-                        <p class="font-sen text-sm mt-5">
-                        Lorem ipsum dolor sit amet consectetur. Adipiscing consectetur gravida quis pellentesque in lectus nisl mauris. Mauris pharetra volutpat fringilla gravida proin scelerisque platea. Nibh nisl est et ullamcorper morbi. Nisl a in sit venenatis nisl ultrices eu arcu.
-                        Lorem ipsum dolor sit amet consectetur. Adipiscing consectetur gravida quis pellentesque in lectus nisl mauris. Mauris pharetra volutpat fringilla gravida proin scelerisque platea. Nibh nisl est et ullamcorper morbi. Nisl a in sit venenatis nisl ultrices eu arcu.
-                        </p>
-                        <button class="bg-secondary py-2 px-6 rounded-md shadow-secondary shadow-md hover:shadow-none font-roboto font-bold mt-5">Read more</button>
-                    </div>
+                <img src="{{ asset('images/aboutme_image.png') }}" width="400"/>
+                <div class="mt-10">
+                    <p class="font-sen font-extrabold text-[2rem]">
+                        About <span class="text-secondary">Me</span>
+                    </p>
+                    <p class="font-sen text-[1rem]">Full Stack Developer</p>
+                    <p class="font-sen text-sm mt-5">
+                    Lorem ipsum dolor sit amet consectetur. Adipiscing consectetur gravida quis pellentesque in lectus nisl mauris. Mauris pharetra volutpat fringilla gravida proin scelerisque platea. Nibh nisl est et ullamcorper morbi. Nisl a in sit venenatis nisl ultrices eu arcu.
+                    Lorem ipsum dolor sit amet consectetur. Adipiscing consectetur gravida quis pellentesque in lectus nisl mauris. Mauris pharetra volutpat fringilla gravida proin scelerisque platea. Nibh nisl est et ullamcorper morbi. Nisl a in sit venenatis nisl ultrices eu arcu.
+                    </p>
+                    <button class="bg-secondary py-2 px-6 rounded-md shadow-secondary shadow-md hover:shadow-none font-roboto font-bold mt-5">Read more</button>
+                </div>
             </div>
         </div>
         <!-- End Section About -->
         <!-- Section Services  -->
-        <div class="container mx-auto p-10">
+        <div id="services" class="container mx-auto p-10">
             <div class="container mx-auto text-center font-sen font-extrabold text-[2rem]">
                 Our <span class="text-secondary">Services</span>
             </div>
@@ -93,12 +95,12 @@
         </div>
         <!-- End Section Services -->
         <!-- Section Contact  -->
-        <div class="w-full bg-bgSecondary">
+        <div id="contact" class="w-full bg-bgSecondary">
             <div class="container mx-auto p-10">
                 <div class="container mx-auto text-center font-sen font-extrabold text-[2rem]">
                     Contact <span class="text-secondary">Me!</span>
                 </div>
-                <div class="container mx-auto w-[85%] grid mt-5">
+                <div class="container mx-auto w-[65%] grid mt-5">
                     <div class="w-full flex justify-between gap-3">
                         <input type="text" class="bg-bgMain w-[50%] h-12 rounded-lg p-3" placeholder="First Name">
                         <input type="text" class="bg-bgMain w-[50%] h-12 rounded-lg p-3" placeholder="Last Name">
@@ -117,5 +119,7 @@
             </div>
         </div>
         <!-- End Section Contact -->
+        <!-- Scripts -->
+        @vite('resources/js/app.js')
     </body>
 </html>

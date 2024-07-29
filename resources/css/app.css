@@ -9,9 +9,20 @@
 
 
 body {
-    @apply bg-bgMain text-white
+    @apply bg-bgMain text-white;
+}
+
+html {
+    @apply scroll-smooth;
 }
 
 #logo {
-    @apply font-sen font-extrabold
+    @apply font-sen font-extrabold;
+}
+
+.fixed-menu {
+    @apply fixed top-0 left-0 w-full z-[1000];
+    background-color: rgba(12, 14, 20, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
 }
