@@ -96,7 +96,7 @@
         <div class="w-full bg-bgSecondary">
             <div class="container mx-auto p-10">
                 <div class="container mx-auto text-center font-sen font-extrabold text-[2rem]">
-                    Contact <span class="text-secondary">Me</span>
+                    Contact <span class="text-secondary">Me!</span>
                 </div>
                 <div class="container mx-auto w-[85%] grid mt-5">
                     <div class="w-full flex justify-between gap-3">
