@@ -2,6 +2,8 @@
 
 Bem-vindo ao repositório do meu portfólio de desenvolvimento web. Este site foi construído usando Laravel, Blade e TailwindCSS para mostrar meus projetos, habilidades e experiências.
 
+<img src=".github/preview.png" />
+
 ## Design do Figma ![TailwindCSS](https://img.icons8.com/color/24/000000/figma.png)
 
 Você pode visualizar o design original do portfólio no  Figma através deste [link](https://www.figma.com/design/OBwx1arGTAaqalXP5t6vE4/Portef%C3%B3lio-Moderno?node-id=0-1&t=Cqow7BfSOAJP04Pk-1)
