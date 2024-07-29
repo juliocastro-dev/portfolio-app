@@ -13,7 +13,7 @@ export default {
         bgSecondary: '#323846',
       },
       fontFamily: {
-        'custom': ['Inter', 'sans-serif'],
+        'inter': ['Inter', 'sans-serif'],
         'sen': ['Sen', 'sans-serif'],
         'roboto': ['Roboto', 'sans-serif'],
       }
