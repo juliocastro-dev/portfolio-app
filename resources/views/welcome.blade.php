@@ -9,7 +9,7 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- Styles -->
         @vite('resources/css/app.css')
     </head>
@@ -67,7 +67,29 @@
         <!-- End Section About -->
         <!-- Section Services  -->
         <div class="container mx-auto p-10">
-            Our Services
+            <div class="container mx-auto text-center font-sen font-extrabold text-[2rem]">
+                Our <span class="text-secondary">Services</span>
+            </div>
+            <div class="w-full flex justify-evenly p-6">
+                <div class="w-[300px] h-[350px] bg-bgSecondary rounded-lg grid justify-items-center p-4">
+                    <i class="fa fa-paint-brush text-secondary text-[3rem] mt-5" aria-hidden="true"></i>
+                    <p class="font-custom font-extrabold text-[1.3rem]">Frontend Development</p>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur. Adipiscing consectetur gravida quis pellentesque in lectus nisl mauris.</p>
+                    <button class="bg-secondary w-32 h-10 rounded-md shadow-secondary shadow-md hover:shadow-none font-roboto font-bold">Read more</button>
+                </div>
+                <div class="w-[300px] h-[350px] bg-bgSecondary rounded-lg grid justify-items-center p-4">
+                    <i class="fa fa-code text-secondary text-[3rem] mt-5" aria-hidden="true"></i>
+                    <p class="font-custom font-extrabold text-[1.3rem]">Backend Development</p>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur. Adipiscing consectetur gravida quis pellentesque in lectus nisl mauris.</p>
+                    <button class="bg-secondary w-32 h-10 rounded-md shadow-secondary shadow-md hover:shadow-none font-roboto font-bold">Read more</button>
+                </div>
+                <div class="w-[300px] h-[350px] bg-bgSecondary rounded-lg grid justify-items-center p-4">
+                    <img src="{{ asset('images/internet_icon.png') }}" class="mt-3" />
+                    <p class="font-custom font-extrabold text-[1.3rem]">Web Development</p>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur. Adipiscing consectetur gravida quis pellentesque in lectus nisl mauris.</p>
+                    <button class="bg-secondary w-32 h-10 rounded-md shadow-secondary shadow-md hover:shadow-none font-roboto font-bold">Read more</button>
+                </div>
+            </div>
         </div>
         <!-- End Section Services -->
         <!-- Section Contact  -->
